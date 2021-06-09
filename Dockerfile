@@ -47,4 +47,4 @@ RUN git clone https://github.com/dgoulet/torsocks.git && CD ./torsocks && ./auto
 RUN wget https://dist.torproject.org/tor-${TOR_LATEST_VERSION}.tar.gz && \
     tar -xvf tor-${TOR_LATEST_VERSION}.tar.gz && \
     rm tor-${TOR_LATEST_VERSION}.tar.gz && \
-    mv tor-${TOR_LATEST_VERSION} tor_latest && CD ./tor_latest && ./configure && make && make install
+    mv tor-${TOR_LATEST_VERSION} tor_latest
