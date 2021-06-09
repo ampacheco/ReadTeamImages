@@ -33,7 +33,7 @@ RUN apt-get update && apt-get -y install \
     libpcap-dev \
     libsqlite3-dev \
     libsqlite3-0 \
-    libevent-dev       # Require Tor Configure Event  
+    libevent-dev       # Required by Tor Configure command
 
 # Delete CD ${WORKDIR} && and Test
 # Install Repositories of Required Tools
