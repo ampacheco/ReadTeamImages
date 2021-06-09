@@ -41,7 +41,7 @@ RUN git clone https://github.com/lanmaster53/recon-ng.git
 RUN git clone https://github.com/s0md3v/Photon.git
 RUN git clone https://github.com/laramies/theHarvester.git
 RUN git clone https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator.git
-RUN git clone https://github.com/dgoulet/torsocks.git && CD ./torsocks && ./autogen.sh && ./configure && make && make install
+RUN git clone https://github.com/dgoulet/torsocks.git
 
 ## Install TOR_LATEST_VERSION 
 RUN wget https://dist.torproject.org/tor-${TOR_LATEST_VERSION}.tar.gz && \
